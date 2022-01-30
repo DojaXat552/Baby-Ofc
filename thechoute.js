@@ -576,13 +576,13 @@ AGRADECIMIENTO
 Si quieres agradecer o realizar una donación por utilizar mi bot puedes hacerlo, subcribiendote a mi canal y siguiendome en mis redes:
 
 ★·.·¯·.·★ *YOUTUBE* ★·.·¯·.·★
-_https://www.youtube.com/c/thechout?sub_confirmation=1_
+_
 
 ★·.·¯·.·★ *INSTAGRAM* ★·.·´¯·.·★
-https://www.instagram.com/the_choute_/
+
 
 ★·.·¯·.·★ *GITHUB* ★·.·¯·.·★
-https://github.com/thechoute/thechoute`
+`
 const quecanciones = `
 Porfavor, es nesesario que envies el link de la musica para poder continuar, si no sabes como sacar el link de un audio.
 
@@ -621,7 +621,6 @@ Buenas tardes🌇 _@${sender.split('@')[0]}_
 ||- *_-INFO DEL BOT-_*
 [💈] Creador: @${Oowner.split('@')[0]}
 [💈] Hora: ${jm}
-[💈] Dispositivo: _${leo.user.phone.device_manufacturer}_
 [💈] Servidor: ${leo.browserDescription[0]}
 [💈] Version de WhatsApp: ${leo.browserDescription[2]}
 [💈] Navedador: ${leo.browserDescription[1]}
@@ -806,13 +805,13 @@ const base = `
 INFO DE MI CREADOR
 
 *Youtube:*
-https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1
+
 
 *Instagram:*
-https://www.instagram.com/the_choute_/
+
 
 *Github:*
-https://github.com/Thechoute
+
 `
 
 const infobot =
@@ -869,24 +868,12 @@ const install =
 
 Video completo donde se explican los pasos para la instalacion
 
-https://youtu.be/Uv8U9VChJHo
+
 
 *PASOS DE INSTALACION*
 Insttala archivos necesarios
 
-- pkg upgrade && update
-- pkg install nodejs
-- pkg install git
-- pkg install bash
 
-*Clona este repositorio*
-
-git clone https://github.com/thechoute/Baby-Ofc
-
-*Inicia la instalacion*
-
-- cd Baby-Ofc
-- bash install.sh
 PARA INICIAR EL BOT
 
 - npm start`
@@ -1007,10 +994,10 @@ if (test.includes(`grupo`)){
   💭:Se ayuda a quienes tengas problemas
   
   Grupo 1 : 
-  _https://chat.whatsapp.com/KOmt1i9738c2zA1SnSLwn1_
+  _
   
   Grupo 2 : 
-  _https://chat.whatsapp.com/GQnptaCf21IEvLJ69RPT4a_`, MessageType.text, {quoted: choute})
+  _`, MessageType.text, {quoted: choute})
   addFilter(from)
     addLevelingLevel(sender, 5)	}}
 
